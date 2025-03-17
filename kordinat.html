@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>kordinat zeka oyunu</title>
+        <style>
+     canvas{
+     border:2px solid rgb(0, 0, 0);
+     }
+ 
+    .skor{
+    position:absolute;
+    top:-15px;
+    left:10px;
+    font-size:30px;
+    }
+
+     </style>
+    </head>
+    <body>
+
+<canvas></canvas>
+<br>
+<input type="range" id="X">
+<input type="range" id="Y">
+<button onclick="atil()">ileri</button>
+<p id="skor" class="skor">skor:0</p>
+
+</body>
+<script src="kordinatgame.js"></script>
+</html>
